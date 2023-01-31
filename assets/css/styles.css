@@ -1,0 +1,162 @@
+#cursor-data {
+  flex: 0 4 49%;
+  margin-bottom: 6px;
+}
+
+#current-data {
+  flex: 2 0 49%;
+  margin-left: 1%;
+  margin-bottom: 6px;
+}
+
+#current-svg {
+  flex: 0 1 100px;
+}
+
+#cursor-data p {
+  margin-bottom: 2px;
+}
+
+#current-data p {
+  margin-bottom: 2px;
+}
+
+.btn {
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#c-controls {
+  margin-bottom: 10px;
+}
+
+#info-panel {
+  margin-top: 10px;
+}
+
+h5 {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #info-panel {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  #cursor-data {
+    border-right: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #info-panel {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  #c-controls {
+    width: 33%;
+  }
+}
+
+section {
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--bs-gray-600);
+}
+
+.height-limit {
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.constr-button {
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.constr-button.constr-button-attent {
+  margin-top: 6px;
+}
+
+.resume-button {
+  margin: 2px;
+}
+
+#drawing {
+  width: 100%;
+  min-width: 300px;
+  transform: rotate(90deg) scaleY(-100%);
+}
+
+.common_view {
+  position: relative;
+}
+
+.round_ctrl {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: auto;
+  transform: rotate(90deg) scaleY(-100%);
+}
+
+#picker {
+  flex-basis: 260px;
+  padding: 5px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  height: 100%;
+  overflow-x: auto;
+  cursor: pointer;
+}
+
+.resume-button.fullwd-button {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.shrink33 {
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 100px;
+  align-items: center;
+  flex-shrink: 1;
+  flex-grow: 2;
+}
+
+.row {
+  border-bottom: 1px solid lightgray;
+}
+
+.spec-export {
+  width: 1050px;
+  height: 1485px;
+}
+
+.hidden_ {
+  display: none;
+}
+
+.spec-text {
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  font-stretch:normal;
+  font-size:3.175px;
+  font-family:sans-serif;
+  font-variant-ligatures:normal;
+  font-variant-caps:normal;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  fill:#000000;stroke:none;
+}
+
