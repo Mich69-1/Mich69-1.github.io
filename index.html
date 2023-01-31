@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Bconstruct</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="./assets/constructor/js/svg.js"></script>
+    <script src="./assets/constructor/js/svg.topath.js"></script>
+    <script src="./assets/constructor/js/html2canvas.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md border rounded-0 border-1 py-3">
+            <div class="container">
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bezier">
+                            <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"></path>
+                            <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
+                   </svg>
+                </span>
+                <span>Конструктор украшений</span>
+              </a>
+              <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2" style="width: 47px;padding: 4px 12px;height: 47px;padding-left: 7px;">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon" style="width: 30px;"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navcol-2">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">В магазин</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Обратная связь</a></li>
+                    </ul><a class="btn btn-secondary ms-md-2" role="button" href="#constructor">Создать</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="section_carousel">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+                <div class="carousel-inner">
+                    <div class="carousel-item active height-limit">
+                        <div class="container d-flex justify-content-center align-items-end" style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;padding-bottom: 40px;"><a class="btn btn-secondary" role="button" style="position: absolute;" href="#constructor">Создать</a></div><img class="w-100 d-block" alt="Slide Image" src="assets/img/beads-g93289d963_1280.jpg">
+                    </div>
+                    <div class="carousel-item height-limit">
+                        <div class="container d-flex justify-content-center align-items-end" style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;padding-bottom: 40px;"><a class="btn btn-secondary" role="button" style="position: absolute;" href="#constructor">Создать</a></div><img class="w-100 d-block" alt="Slide Image" src="assets/img/color-g96b26d942_1280.jpg">
+                    </div>
+                    <div class="carousel-item height-limit">
+                        <div class="container d-flex justify-content-center align-items-end" style="position: absolute;top: 0;bottom: 0;left: 0;right: 0;padding-bottom: 40px;"><a class="btn btn-secondary" role="button" style="position: absolute;" href="#constructor">Создать</a></div><img class="w-100 d-block" alt="Slide Image" src="assets/img/beads-gdea3ab4ed_1280.jpg">
+                    </div>
+                </div>
+                <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                </ol>
+            </div>
+        </section>
+        <section id="section_constructor">
+            <div class="container" id="constructor">
+                <div class="row justify-content-between">
+                    <div class="col-md-4 col-xl-3 flex-grow-0 flex-shrink-1" id="c-controls">
+                        <div class="accordion" role="tablist" id="accordion-1">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="true" aria-controls="accordion-1 .item-1">Основа</button></h2>
+                            <div class="accordion-collapse collapse show item-1" role="tabpanel">
+                                <div class="accordion-body">
+                                  <label id="spLengh-label" class="form-label">Длина бус <strong>200мм</strong></label>
+                                  <input class="form-range" type="range" id="spLengh" step="10" min="200" max="1000" value="200" name="spLengh" onchange="showSpLength()">
+                                  <button class="btn btn-warning constr-button constr-button-attent" type="button" onclick="clearAll()">Удалить всё</button></div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                                <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4">Посмотреть/Сохранить/Заказать</button></h2>
+                                <div class="accordion-collapse collapse item-4" role="tabpanel">
+                                    <div class="accordion-body">
+                                      <div id="info-panel" class="flex-container">
+                                        <button class="btn btn-secondary resume-button fullwd-button" type="button">Посмотреть на манекене</button>
+                                        <button class="btn btn-secondary resume-button fullwd-button" type="button" onclick="renderSpec ()" data-bs-toggle="modal" data-bs-target="#Specific-modal">Спецификация</button>
+                                      </div>
+                                    </div>
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xl-4 flex-grow-1 common_view">
+                        <h5>Общий вид</h5>
+                        <div id="drawing">
+                          <div id="int_roundctrl" class="round_ctrl">
+                            <svg
+                              width="100%"
+                              height="100%"
+                              viewBox="0 0 200 200"
+                              version="1.1"
+                              id="svg5"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:svg="http://www.w3.org/2000/svg">
+                              <defs
+                                id="defs2" />
+                              <g
+                                id="layer1"
+                                transform="translate(0,-27.769669)">
+                                <image
+                                    width="30.649332"
+                                    height="23.368"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/addaftersel.png"
+                                    id="image270"
+                                    x="118.75323"
+                                    y="2.6540711"
+                                    transform="rotate(18)" /><image
+                                    width="30.649332"
+                                    height="22.860001"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/copy.png"
+                                    id="image336"
+                                    x="146.74335"
+                                    y="-94.365242"
+                                    transform="rotate(54)" /><image
+                                    width="30.649332"
+                                    height="22.860001"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/paste.png"
+                                    id="image348"
+                                    x="112.54133"
+                                    y="-190.0708"
+                                    transform="rotate(90)" /><image
+                                    width="32.512001"
+                                    height="19.642666"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/selectrange.png"
+                                    id="image360"
+                                    x="27.847937"
+                                    y="-246.50693"
+                                    transform="rotate(126)" /><image
+                                    width="25.907999"
+                                    height="13.546667"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/sizeplus.png"
+                                    id="image372"
+                                    x="-69.099854"
+                                    y="-240.03473"
+                                    transform="rotate(162)" /><image
+                                    width="23.875999"
+                                    height="13.546667"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/sizeminus.png"
+                                    id="image384"
+                                    x="-146.70667"
+                                    y="-177.89719"
+                                    transform="rotate(-162)" /><image
+                                    width="30.649332"
+                                    height="17.271999"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/delete.png"
+                                    id="image396"
+                                    x="-177.46739"
+                                    y="-82.040337"
+                                    transform="rotate(-126)" /><image
+                                    width="30.649332"
+                                    height="22.860001"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/pastemirror.png"
+                                    id="image408"
+                                    x="-143.66959"
+                                    y="10.600774"
+                                    transform="rotate(-90)" /><image
+                                    width="30.649332"
+                                    height="7.6199999"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/deselectall.png"
+                                    id="image420"
+                                    x="-59.58009"
+                                    y="72.150688"
+                                    transform="rotate(-54)" /><image
+                                    width="30.48"
+                                    height="7.6199999"
+                                    preserveAspectRatio="none"
+                                    style="image-rendering:optimizeQuality"
+                                    xlink:href="./assets/img/addbead.png"
+                                    id="image432"
+                                    x="41.190132"
+                                    y="67.39212"
+                                    transform="rotate(-18)" />
+                                <path
+                                  d="m 32.0867,470.17397 c -7.757255,-26.92359 -11.437462,-56.45804 -11.457332,-91.94755 -0.02064,-36.85941 3.412561,-63.94494 12.023464,-94.85674 l 1.286956,-4.61997 55.987486,18.22912 c 30.793116,10.02602 74.909976,24.38628 98.037466,31.91169 l 42.05,13.68256 -0.72157,3.42719 c -0.39688,1.88495 -1.41563,9.80577 -2.26391,17.60182 -1.45782,13.39806 -0.66317,29.76304 2.23285,45.9832 l 0.68559,3.83986 -96.41452,31.25836 c -53.02798,17.19209 -97.103895,31.49746 -97.946475,31.78971 -0.92968,0.32246 -2.305683,-2.15405 -3.500005,-6.29925 z"
+                                  id="int-pastemirror"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 138.87501,287.72378 c -53.150089,-17.28805 -96.815966,-31.5838 -97.035281,-31.76833 -0.901528,-0.75852 8.53107,-22.82113 16.401745,-38.36326 16.762273,-33.10028 36.684378,-61.22382 61.708306,-87.1121 16.39069,-16.95684 36.03187,-34.352411 37.98172,-33.639206 0.65502,0.239593 28.17014,37.586286 61.14472,82.992656 l 59.95376,82.55704 -9.00686,8.98799 c -10.81311,10.79046 -18.97762,21.98462 -26.90947,36.89495 -3.24036,6.09125 -6.27645,11.03184 -6.74684,10.97905 -0.4704,-0.0528 -44.34171,-14.24071 -97.4918,-31.52879 z"
+                                  id="int-deselectall"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 237.83934,164.49316 -60.38995,-83.169761 11.75169,-7.327792 c 26.40677,-16.465984 59.39063,-31.22818 88.4874,-39.603259 25.90242,-7.455631 43.17692,-10.472281 79.73868,-13.924772 l 7.99972,-0.755405 V 123.27525 226.83833 l -7.99972,0.82145 c -13.07704,1.34282 -31.45201,6.86882 -45.39185,13.65094 -7.19016,3.49822 -13.23794,6.35854 -13.43952,6.3563 -0.20157,-0.003 -27.54198,-37.43049 -60.75645,-83.17386 z"
+                                  id="int-addbead"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 446.06398,242.39346 c -15.21857,-7.86633 -40.27257,-15.20162 -51.92182,-15.20162 H 389.746 V 123.46219 19.732538 l 9.91965,0.783222 c 62.68647,4.94952 121.58836,24.066068 169.34829,54.961808 7.56048,4.890847 8.77431,6.1566 7.71205,8.041894 -3.21293,5.702242 -118.65455,163.354138 -119.7824,163.579838 -0.70398,0.14087 -5.5998,-1.97676 -10.87961,-4.70584 z"
+                                  id="int-addaftersel"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 514.04496,310.70884 c -6.70908,-13.6519 -15.24075,-25.67997 -26.5771,-37.46873 l -10.49101,-10.9097 59.88329,-82.46777 c 32.9358,-45.35726 60.45428,-82.658088 61.15216,-82.890715 2.23533,-0.745111 30.00157,24.300615 43.70892,39.426365 22.15914,24.45209 38.1995,47.27482 53.36708,75.93233 7.97634,15.07043 20.10629,43.5133 18.73522,43.93118 -0.48902,0.14905 -44.42898,14.40454 -97.64434,31.67886 -53.21538,17.27432 -97.01018,31.40787 -97.32178,31.40787 -0.31161,0 -2.4772,-3.88786 -4.81244,-8.63969 z"
+                                  id="int-copy"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 624.61757,445.55379 c -52.09413,-17.02779 -95.6258,-31.31067 -96.73704,-31.73972 -1.79693,-0.6938 -1.83795,-1.82039 -0.37079,-10.18417 2.16271,-12.32885 2.11475,-40.33418 -0.0884,-51.64254 -1.29921,-6.6685 -1.36901,-9.11456 -0.27294,-9.56536 0.80995,-0.33312 44.95908,-14.77053 98.10917,-32.08312 l 96.63653,-31.47744 3.9979,16.0837 c 6.39765,25.73803 8.4488,42.51584 9.12816,74.66557 0.79832,37.77997 -1.40737,59.60605 -9.44003,93.41266 -1.90763,8.02849 -3.88924,13.70339 -4.75764,13.62478 -0.81856,-0.0741 -44.11076,-14.06657 -96.20489,-31.09436 z"
+                                  id="int-paste"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 537.39957,576.79534 -60.33896,-83.01802 9.28694,-9.62418 c 11.51673,-11.93493 19.56409,-23.1151 26.69002,-37.08036 l 5.49415,-10.7673 76.08209,24.73465 c 41.84516,13.60406 85.97291,27.91023 98.06168,31.79148 l 21.97957,7.05683 -5.04728,12.44636 c -16.9501,41.79818 -42.13381,80.37859 -73.80807,113.07095 -13.38651,13.81678 -35.88096,34.41426 -37.57808,34.40908 -0.2657,-8.2e-4 -27.63563,-37.35958 -60.82206,-83.01949 z"
+                                  id="int-selectrange"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="M 389.746,632.63905 V 529.55549 l 10.43841,-1.5263 c 15.45761,-2.2602 30.89279,-7.08759 44.8288,-14.02031 l 12.38874,-6.16301 60.24866,82.93071 c 33.13674,45.61188 60.24863,83.20948 60.24863,83.5502 0,0.34073 -3.59987,2.88736 -7.99971,5.65918 -50.62029,31.88995 -110.02532,51.44582 -166.83666,54.92185 l -13.31687,0.8148 z"
+                                  id="int-sizeplus"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="m 345.58759,734.4996 c -62.58626,-7.34168 -112.1134,-24.33395 -160.38454,-55.02635 l -7.76536,-4.93748 53.99603,-74.27636 c 29.69782,-40.85201 56.98506,-78.3779 60.63832,-83.39089 l 6.64228,-9.11452 9.35714,4.87205 c 13.12293,6.8328 28.8898,12.10312 44.23589,14.78651 l 13.11953,2.29407 v 102.81348 102.81348 l -7.99972,-0.19177 c -4.39984,-0.10547 -9.72765,-0.39449 -11.83957,-0.64222 z"
+                                  id="int-sizeminus"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  d="M 147.11813,651.34107 C 112.06363,621.82521 80.414764,581.83499 59.479566,540.60455 50.338264,522.60138 41.137483,501.13637 42.134518,500.13934 43.042978,499.23088 234.75098,437.1043 236.64582,437.1043 c 0.9448,0 2.6576,2.46077 3.80622,5.46837 3.62986,9.50467 16.90532,28.57404 27.77272,39.89377 10.40869,10.84194 10.46842,10.94246 8.38791,14.11771 -4.42727,6.75688 -115.09508,158.87118 -117.15661,161.03326 -2.07326,2.17437 -2.64976,1.88111 -12.33793,-6.27634 z"
+                                  id="int-delete"
+                                  transform="matrix(0.26458333,0,0,0.26458333,0,27.769669)" />
+                                <path
+                                  style="fill:none;stroke:#000000;stroke-width:0.59092;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  d="M 77.297335,132.00303 H 130.70325"
+                                  id="path1566" />
+                                <text
+                                  xml:space="preserve"
+                                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.723;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  x="76.467995"
+                                  y="127.30854"
+                                  id="int-sizecurrent">18</text>
+                                <path
+                                  style="fill:none;stroke:#000000;stroke-width:0.458919;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  d="m 98.243172,116.06688 v 32.21095"
+                                  id="path1624" />
+                                <text
+                                  xml:space="preserve"
+                                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.723;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  x="101.31464"
+                                  y="127.30854"
+                                  id="int-colorcurrent">888</text>
+                                <text
+                                  xml:space="preserve"
+                                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.723;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  x="76.467995"
+                                  y="146.88766"
+                                  id="int-sizepressed">18</text>
+                                <text
+                                  xml:space="preserve"
+                                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.723;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  x="101.31464"
+                                  y="146.88766"
+                                  id="int-colorpressed">888</text>
+                                <text
+                                  xml:space="preserve"
+                                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.05122px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.463751;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+                                  x="77.577065"
+                                  y="111.71838"
+                                  id="text1719">разм./цвет</text>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="palettes">
+                <h5>Цветовая палитра</h5>
+                <div id="picker"></div>
+            </div>
+        </section>
+        <section id="section_modal">
+          <div class="modal fade" role="dialog" tabindex="-1" id="Specific-modal">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Спецификация для сборки</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="specification-main">
+                      <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 shrink33">Диаметр, мм</div>
+                            <div class="col-md-4 shrink33">Цвет</div>
+                            <div class="col-md-4 shrink33">Количество</div>
+                        </div>
+                      </div>
+                      <div class="container" id="specification">
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-light" type="button" data-bs-dismiss="modal">Закрыть</button>
+                        <a href="" id="nablob" target="_blank" download="unnamed.svg">
+                          <button class="btn btn-primary" type="button">Сохранить в svg</button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>  
+          <div class="spec-export hidden_" id="specExport">
+
+          </div>
+        </section>
+    </main>
+    <footer class="text-center py-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <p class="text-muted my-2">Copyright&nbsp;© 2023 ООО «Арзанис»</p>
+                </div>
+                <div class="col">
+                    <ul class="list-inline my-2">
+                        <li class="list-inline-item me-4">
+                            <div class="bs-icon-circle bs-icon-primary bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-facebook">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path>
+                                </svg></div>
+                        </li>
+                        <li class="list-inline-item me-4">
+                            <div class="bs-icon-circle bs-icon-primary bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-twitter">
+                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                                </svg></div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="bs-icon-circle bs-icon-primary bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-instagram">
+                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                                </svg></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-inline my-2">
+                        <li class="list-inline-item"><a class="link-secondary" href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a class="link-secondary" href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/constructor/js/mksort.min.js"></script>
+    <script src="./assets/constructor/js/beadconstruct_n.js"></script>
+    <script src="./assets/constructor/js/roundcontrols.js"></script>
+    <script src="./assets/constructor/js/specification.js"></script>
+</body>
+
+</html>
