@@ -72,6 +72,10 @@ section {
   border-bottom: 1px solid var(--bs-gray-600);
 }
 
+#section_modal {
+  border-bottom: none;
+}
+
 .height-limit {
   max-height: 600px;
   overflow: hidden;
